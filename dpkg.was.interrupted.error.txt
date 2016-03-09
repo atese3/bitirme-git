@@ -1,0 +1,5 @@
+# Raspberry Pi yükleme sýrasýnda sorun çýktýðý zaman bu hatayý verir 
+# aþaðýdaki kodlarý terminal ekranýnda yazmak sorunu çözecektir
+
+sudo apt-get install -f
+sudo dpkg --configure -a
